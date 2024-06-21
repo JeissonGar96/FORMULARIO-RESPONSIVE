@@ -17,7 +17,8 @@ legend{
 }
 
 .container{
-    width: 750px;
+    width: 70%;
+    min-width: 350px;
     padding: 0px 20px; 
     margin: 100px auto;
     background-color: #222;
@@ -37,6 +38,7 @@ form{
     padding: 30px; 
     border-radius: 30px;
     color: white;
+    box-sizing: border-box;
     
 }
 
@@ -65,7 +67,7 @@ label{
 .button{
     width: 100px;
     height: 30px;
-    margin: 30px 260px 0;
+    margin: 25px 35% 0;
     background-color: rgba(137, 43, 226, 0.507);
     border-radius: 6px;
     border-style: none;
@@ -77,5 +79,7 @@ label{
 .checkbox{
 
     margin-top: 20px;
+    align-content: center;
+    
 }
 
